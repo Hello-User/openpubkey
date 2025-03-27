@@ -31,7 +31,8 @@ import (
 type AzureOptions struct {
 	// ClientID is the client ID of the OIDC application. It should be the
 	// expected "aud" claim in received ID tokens from the OP.
-	ClientID string
+	ClientID     string
+	ClientSecret string
 	// Issuer is the OP's issuer URI for performing OIDC authorization and
 	// discovery.
 	Issuer string
@@ -71,8 +72,9 @@ type AzureOptions struct {
 func GetDefaultAzureOpOptions() *AzureOptions {
 	defaultTenantID := "9188040d-6c67-4c5b-b112-36a304b66dad"
 	return &AzureOptions{
-		Issuer:   azureIssuer(defaultTenantID),
-		ClientID: "096ce0a3-5e72-4da8-9c86-12924b294a01",
+		Issuer:       azureIssuer(defaultTenantID),
+		ClientID:     "096ce0a3-5e72-4da8-9c86-12924b294a01",
+		ClientSecret: "null",
 		// Scopes:   []string{"openid profile email"},
 		Scopes: []string{"openid profile email offline_access"}, // offline_access is required for refresh tokens
 		RedirectURIs: []string{
@@ -101,6 +103,7 @@ func NewAzureOp() BrowserOpenIdProvider {
 func NewAzureOpWithOptions(opts *AzureOptions) BrowserOpenIdProvider {
 	return &StandardOp{
 		clientID:                  opts.ClientID,
+		clientSecret:              opts.ClientSecret,
 		Scopes:                    opts.Scopes,
 		RedirectURIs:              opts.RedirectURIs,
 		GQSign:                    opts.GQSign,
