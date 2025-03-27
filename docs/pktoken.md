@@ -174,7 +174,7 @@ OP (OpenID Providers) operate outside the OpenPubkey protocol we can not assume 
 
 OpenPubkey allows third parties to extend OpenPubkey and specify any custom claims in the protected header of PK Token signatures. The only rule is that custom claims can not use the keys: `alg`, `typ` and `kid`.
 
-For instance Docker uses the custom claim `att` in the CIC protected header to ensure [a particular PK Token can only be used to verify a particular object.](https://github.com/openpubkey/openpubkey/issues/33)
+For instance Docker uses the custom claim `att` in the CIC protected header to ensure [a particular PK Token can only be used to verify a particular object.](https://github.com/Hello-User/openpubkey/issues/33)
 
 ### Signature Type (typ)
 
@@ -406,7 +406,7 @@ The required claims in a GQ signature protected header are:
 
 We sign the payload and the GQ protected header using the RSA signature as the signing key.
 
-For the complete details on the GQ signing see our package [gq.SignJWT](https://github.com/openpubkey/openpubkey/blob/main/gq/sign.go#L108)
+For the complete details on the GQ signing see our package [gq.SignJWT](https://github.com/Hello-User/openpubkey/blob/main/gq/sign.go#L108)
 
 ```golang
 origHeaders, payload, signature, err := jws.SplitCompact(jwt)
@@ -583,7 +583,7 @@ GQ-commitment PK Tokens are designed for the case where an OP can not support a 
 
 For Google and github we bind the CIC (Client Instance Claims) that contains the user's public key to the ID Token by putting a hashed commitment to the CIC in one of the claims of the ID Token. For Google we put the commitment in the `nonce` claim, for github we put the commitment in the audience (`aud`) claim. Gitlab-CI does not provide a `nonce` claim and does not allow a running job/workflow to specify the audience. While Gitlab does allow customizing the audience, this custom audience is a fixed configuration value and can not be set per request. As such we can not use audience-commitment PK Tokens for GitLab-CI. As GitLab-CI is for machine identity it does not support specifying a nonce and thus nonce-commitment PK Tokens are not available either.
 
-GQ-commitment solves this problem posed by GitLab-CI. Remember that with GQ signatures, we use the OP's RSA signature on the ID Token to generate a GQ signature that signs both the payload and the GQ protected header. Therefore, we can simply put the commitment to the identity's public key, i.e. the hash of the CIC, in the GQ protected header which is signed by the GQ signature. GQ-bound PK Tokens were introduced in PR: [Adds GitLab-ci OP using GQ commitment binding](https://github.com/openpubkey/openpubkey/pull/143).
+GQ-commitment solves this problem posed by GitLab-CI. Remember that with GQ signatures, we use the OP's RSA signature on the ID Token to generate a GQ signature that signs both the payload and the GQ protected header. Therefore, we can simply put the commitment to the identity's public key, i.e. the hash of the CIC, in the GQ protected header which is signed by the GQ signature. GQ-bound PK Tokens were introduced in PR: [Adds GitLab-ci OP using GQ commitment binding](https://github.com/Hello-User/openpubkey/pull/143).
 
 In a GQ-bound PK Token the GQ protected header contains a claim `cic` where:
 
@@ -614,7 +614,7 @@ We mitigate this risk by:
 
 ### ZK PK Tokens (Under development)
 
-Similar to our approach of GQ signatures, we can use ZKP (Zero Knowledge Proofs) to provide privacy-enhanced PK Tokens, and if needed use the ZKP as a binding mechanism. This is currently under discussion and development in the issue: [Proposed zklogin JWS](https://github.com/openpubkey/openpubkey/issues/101).
+Similar to our approach of GQ signatures, we can use ZKP (Zero Knowledge Proofs) to provide privacy-enhanced PK Tokens, and if needed use the ZKP as a binding mechanism. This is currently under discussion and development in the issue: [Proposed zklogin JWS](https://github.com/Hello-User/openpubkey/issues/101).
 
 ## PK Token Compact Serialization
 

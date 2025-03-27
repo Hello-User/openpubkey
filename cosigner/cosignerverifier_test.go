@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/pktoken/mocks"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jwk"
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/discover"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/pktoken/mocks"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

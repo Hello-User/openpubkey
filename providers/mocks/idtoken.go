@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/Hello-User/openpubkey/oidc"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/oidc"
 )
 
 type CommitmentType struct {

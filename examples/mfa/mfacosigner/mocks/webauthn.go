@@ -22,11 +22,11 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/protocol/webauthncbor"
 	"github.com/go-webauthn/webauthn/protocol/webauthncose"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/util"
 )
 
 // For testing purposes we create a WebAuthn device to run the client part of the protocol

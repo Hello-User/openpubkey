@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Hello-User/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/pktoken"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/discover"
-	"github.com/openpubkey/openpubkey/pktoken"
 )
 
 type DefaultCosignerVerifier struct {

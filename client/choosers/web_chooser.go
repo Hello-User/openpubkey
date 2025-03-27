@@ -28,8 +28,8 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/sirupsen/logrus"
 )
 

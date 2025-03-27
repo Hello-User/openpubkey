@@ -28,9 +28,9 @@ import (
 	"github.com/lestrrat-go/jwx/v2/jws"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
 )
 
 func TestCACertCreation(t *testing.T) {

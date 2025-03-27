@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/openpubkey/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/oidc"
 )
 
 // CompactPKToken creates a compact representation of a PK Token from a list of tokens

@@ -26,10 +26,10 @@ import (
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
 
-	"github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
+	"github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
 
-	"github.com/openpubkey/openpubkey/util"
+	"github.com/Hello-User/openpubkey/util"
 
 	_ "golang.org/x/crypto/sha3"
 )

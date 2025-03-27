@@ -79,7 +79,7 @@ Our automated PR checks verify that:
 
 To build OpenPubkey, ensure you have Go version `>= 1.23` installed. To verify which version you have installed, try `go version`.
 
-To run the [Google example](https://github.com/openpubkey/openpubkey/tree/main/examples/google):
+To run the [Google example](https://github.com/Hello-User/openpubkey/tree/main/examples/google):
 
  1. Navigate to the `examples/google/` directory.
  2. Execute `go build`

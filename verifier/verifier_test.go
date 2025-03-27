@@ -22,14 +22,14 @@ import (
 	"crypto/rsa"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/discover"
+	pktoken_mocks "github.com/Hello-User/openpubkey/pktoken/mocks"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/providers/mocks"
+	"github.com/Hello-User/openpubkey/util"
+	"github.com/Hello-User/openpubkey/verifier"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/discover"
-	pktoken_mocks "github.com/openpubkey/openpubkey/pktoken/mocks"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/providers/mocks"
-	"github.com/openpubkey/openpubkey/util"
-	"github.com/openpubkey/openpubkey/verifier"
 	"github.com/stretchr/testify/require"
 )
 

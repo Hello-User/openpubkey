@@ -22,7 +22,7 @@ import (
 
 	"time"
 
-	"github.com/openpubkey/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/discover"
 )
 
 const googleIssuer = "https://accounts.google.com"

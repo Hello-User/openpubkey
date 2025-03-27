@@ -23,10 +23,10 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/Hello-User/openpubkey/gq"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwk"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/gq"
-	"github.com/openpubkey/openpubkey/util"
 )
 
 func CreateGQToken(ctx context.Context, idToken []byte, op OpenIdProvider) ([]byte, error) {

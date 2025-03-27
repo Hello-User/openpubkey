@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Hello-User/openpubkey/client"
+	wauthnmock "github.com/Hello-User/openpubkey/examples/mfa/mfacosigner/mocks"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/pktoken/mocks"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/client"
-	wauthnmock "github.com/openpubkey/openpubkey/examples/mfa/mfacosigner/mocks"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/pktoken/mocks"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

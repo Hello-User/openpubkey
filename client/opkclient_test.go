@@ -21,12 +21,12 @@ import (
 	"crypto/rsa"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/gq"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/gq"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

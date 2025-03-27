@@ -26,12 +26,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/gq"
+	"github.com/Hello-User/openpubkey/providers/mocks"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/discover"
-	"github.com/openpubkey/openpubkey/gq"
-	"github.com/openpubkey/openpubkey/providers/mocks"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

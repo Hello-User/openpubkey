@@ -27,9 +27,9 @@ import (
 	"fmt"
 	mathrand "math/rand"
 
+	"github.com/Hello-User/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/oidc"
 	"github.com/lestrrat-go/jwx/v2/jwk"
-	"github.com/openpubkey/openpubkey/discover"
-	"github.com/openpubkey/openpubkey/oidc"
 	"golang.org/x/exp/maps"
 )
 

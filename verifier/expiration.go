@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken"
 )
 
 type ExpirationPolicy struct {

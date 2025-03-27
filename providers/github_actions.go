@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/Hello-User/openpubkey/discover"
+	simpleoidc "github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
 	"github.com/awnumar/memguard"
-	"github.com/openpubkey/openpubkey/discover"
-	simpleoidc "github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
 )
 
 const githubIssuer = "https://token.actions.githubusercontent.com"

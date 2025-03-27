@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/openpubkey/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/providers"
 	"github.com/stretchr/testify/require"
 )
 

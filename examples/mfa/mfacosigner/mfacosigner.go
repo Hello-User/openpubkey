@@ -21,11 +21,11 @@ import (
 	"crypto/rand"
 	"fmt"
 
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/cosigner/mocks"
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/cosigner/mocks"
 )
 
 func NewUser(as *cosigner.AuthState) *user {

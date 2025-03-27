@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/openpubkey/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/discover"
 )
 
 // AzureOptions is an options struct that configures how providers.AzureOp

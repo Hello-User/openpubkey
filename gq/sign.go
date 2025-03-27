@@ -23,9 +23,9 @@ import (
 	"math/big"
 
 	"filippo.io/bigmod"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/awnumar/memguard"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/util"
 )
 
 // Sign creates a GQ1 signature over the given message with the given GQ1 private number.

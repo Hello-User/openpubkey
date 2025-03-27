@@ -25,11 +25,11 @@ import (
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jwk"
 
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
-	"github.com/openpubkey/openpubkey/verifier"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
+	"github.com/Hello-User/openpubkey/verifier"
 )
 
 type OpenIdProvider = providers.OpenIdProvider

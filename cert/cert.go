@@ -28,8 +28,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken"
 )
 
 // CreateX509Cert generates a self-signed x509 cert from a PK token

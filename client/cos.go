@@ -30,10 +30,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Hello-User/openpubkey/cosigner/msgs"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/cosigner/msgs"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/sirupsen/logrus"
 )
 

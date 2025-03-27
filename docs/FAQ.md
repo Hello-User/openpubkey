@@ -99,4 +99,4 @@ _Section 3.5.3: Archival Verification_ of the [OpenPubkey paper](https://eprint.
 
 ## What are some other resources I can read to learn more about OpenPubkey?
 
-We love this question! See our wiki for the [OpenPubkey Reading List](https://github.com/openpubkey/openpubkey/wiki/OpenPubkey-Reading-List). 
+We love this question! See our wiki for the [OpenPubkey Reading List](https://github.com/Hello-User/openpubkey/wiki/OpenPubkey-Reading-List). 

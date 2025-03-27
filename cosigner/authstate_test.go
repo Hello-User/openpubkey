@@ -19,10 +19,10 @@ package cosigner_test
 import (
 	"testing"
 
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/pktoken/mocks"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/pktoken/mocks"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

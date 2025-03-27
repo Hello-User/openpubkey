@@ -32,10 +32,10 @@ import (
 
 	"github.com/lestrrat-go/jwx/v2/jwa"
 
-	"github.com/openpubkey/openpubkey/cert"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/verifier"
+	"github.com/Hello-User/openpubkey/cert"
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/verifier"
 )
 
 type Ca struct {

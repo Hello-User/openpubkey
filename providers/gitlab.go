@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/openpubkey/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/discover"
 )
 
 type GitlabOptions struct {

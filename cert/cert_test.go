@@ -23,10 +23,10 @@ import (
 	"encoding/pem"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

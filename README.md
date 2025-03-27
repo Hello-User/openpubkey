@@ -1,6 +1,6 @@
 # OpenPubkey
 
-[![Go Coverage](https://github.com/openpubkey/openpubkey/wiki/coverage.svg)](https://raw.githack.com/wiki/openpubkey/openpubkey/coverage.html)
+[![Go Coverage](https://github.com/Hello-User/openpubkey/wiki/coverage.svg)](https://raw.githack.com/wiki/openpubkey/openpubkey/coverage.html)
 
 ## Overview
 
@@ -154,7 +154,7 @@ As we work to get this repository ready for `v 1.0`, you can check out the [exam
 
 ### File An Issue
 
-For feature requests, bug reports, technical questions and requests, please open an issue. We ask that you review [existing issues](https://github.com/openpubkey/openpubkey/issues) before filing a new one to ensure your issue has not already been addressed.
+For feature requests, bug reports, technical questions and requests, please open an issue. We ask that you review [existing issues](https://github.com/Hello-User/openpubkey/issues) before filing a new one to ensure your issue has not already been addressed.
 
 If you have found what you believe to be a security vulnerability, *DO NOT file an issue*. Instead, please follow our [security disclosure policy](./SECURITY.md).
 

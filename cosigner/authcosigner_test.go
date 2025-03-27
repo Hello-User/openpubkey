@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/cosigner"
+	cosmock "github.com/Hello-User/openpubkey/cosigner/mocks"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/pktoken/mocks"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/cosigner"
-	cosmock "github.com/openpubkey/openpubkey/cosigner/mocks"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/pktoken/mocks"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 )
 

@@ -24,9 +24,9 @@ import (
 
 	"github.com/awnumar/memguard"
 
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/examples/x509/ca"
-	"github.com/openpubkey/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/examples/x509/ca"
+	"github.com/Hello-User/openpubkey/providers"
 )
 
 func main() {

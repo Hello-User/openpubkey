@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Hello-User/openpubkey/discover"
+	simpleoidc "github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
+	"github.com/Hello-User/openpubkey/providers/mocks"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/discover"
-	simpleoidc "github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
-	"github.com/openpubkey/openpubkey/providers/mocks"
 )
 
 const mockProviderIssuer = "https://accounts.example.com"

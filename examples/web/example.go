@@ -33,12 +33,12 @@ import (
 
 	"github.com/awnumar/memguard"
 
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/client/choosers"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/util"
-	"github.com/openpubkey/openpubkey/verifier"
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/client/choosers"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/util"
+	"github.com/Hello-User/openpubkey/verifier"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/gq"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/gq"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
 )
 
 type ProviderVerifier interface {

@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/examples/mfa/mfacosigner"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/verifier"
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/examples/mfa/mfacosigner"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/verifier"
 )
 
 func main() {

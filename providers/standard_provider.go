@@ -23,11 +23,11 @@ import (
 
 	"time"
 
+	"github.com/Hello-User/openpubkey/discover"
+	simpleoidc "github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken/clientinstance"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/google/uuid"
-	"github.com/openpubkey/openpubkey/discover"
-	simpleoidc "github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken/clientinstance"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/sirupsen/logrus"
 	"github.com/zitadel/oidc/v3/pkg/client/rp"
 	"github.com/zitadel/oidc/v3/pkg/oidc"

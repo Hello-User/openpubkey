@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Hello-User/openpubkey/discover"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	"github.com/lestrrat-go/jwx/v2/jws"
-	"github.com/openpubkey/openpubkey/discover"
-	"github.com/openpubkey/openpubkey/util"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 )

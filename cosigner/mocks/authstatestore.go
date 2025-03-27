@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openpubkey/openpubkey/cosigner"
-	"github.com/openpubkey/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/cosigner"
+	"github.com/Hello-User/openpubkey/pktoken"
 )
 
 // This is intended for testing purposes. The locking strategy used is not

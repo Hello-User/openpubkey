@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Hello-User/openpubkey/client"
+	"github.com/Hello-User/openpubkey/oidc"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/providers"
+	"github.com/Hello-User/openpubkey/verifier"
 	"github.com/goccy/go-json"
-	"github.com/openpubkey/openpubkey/client"
-	"github.com/openpubkey/openpubkey/oidc"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/providers"
-	"github.com/openpubkey/openpubkey/verifier"
 )
 
 func Sign(op client.OpenIdProvider) ([]byte, []byte, error) {

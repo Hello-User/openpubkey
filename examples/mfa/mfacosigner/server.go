@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/Hello-User/openpubkey/examples/mfa/mfacosigner/jwks"
+	"github.com/Hello-User/openpubkey/pktoken"
+	"github.com/Hello-User/openpubkey/util"
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/lestrrat-go/jwx/v2/jwa"
-	"github.com/openpubkey/openpubkey/examples/mfa/mfacosigner/jwks"
-	"github.com/openpubkey/openpubkey/pktoken"
-	"github.com/openpubkey/openpubkey/util"
 )
 
 type Server struct {
