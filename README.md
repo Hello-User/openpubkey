@@ -1,4 +1,4 @@
-# OpenPubkey 
+# OpenPubkey
 
 [![Go Coverage](https://github.com/openpubkey/openpubkey/wiki/coverage.svg)](https://raw.githack.com/wiki/openpubkey/openpubkey/coverage.html)
 

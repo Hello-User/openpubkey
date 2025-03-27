@@ -1,4 +1,4 @@
-module github.com/openpubkey/openpubkey
+module github.com/Hello-User/openpubkey
 
 go 1.23.7
 
